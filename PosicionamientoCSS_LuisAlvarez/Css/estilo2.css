@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;    
+    }
+
+#menu{
+    background-color: rgb(171,248,205);
+    width: 20%;
+    height: 400px;
+    float: left;
+    text-align: center    
+    }    
+
+#main{
+    background-color: rgb(128,128,255);
+    width: 78%;
+    height: 400px;
+    float: right;
+    text-align: center
+    }
+
+.cajasmenu{
+    background-color: cyan;
+    width: 50%;
+    height: 300px;
+    float: left;
+    border-style: solid;
+	border-width:1px;  
+    border-color: black;
+} 
+
+.cajasmain{
+    float: left;
+    background-color: cyan;
+    height: 300px;
+    width: 48%;
+    margin: 1%;
+    text-align: center; 
+	border-style: solid;
+	border-width:1px;  
+    border-color: black;	
+}
+
+
+
+

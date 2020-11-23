@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    
+    }
+
+.caja {
+    float: left;
+    background-color: cyan;
+    height: 300px;
+    width: 20%;
+    margin: 2%;
+    padding: 2em;
+    text-align: center
+} 

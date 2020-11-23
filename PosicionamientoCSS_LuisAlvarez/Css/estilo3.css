@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah| Saira+Extra+Condensed');	/* Carga fuente */
+
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;    
+    }
+
+p {font-weight: bold;}  					/* Parrafos en negrita */
+
+#Contenedor{ width: 100%; }					/* Ancho contenedor 100% */
+
+
+/*----------------------------------------------------------------------------*/
+#menu{										/* id div MENU */
+	float: left;
+	width: 20%;
+	height: 400px;	
+	text-align: center;
+    background-color: rgb(128,255,128);    
+    }    
+
+.cajasmenu{									/* Clase para div de Caja1 y Caja2 dentro de div MENU */
+    float: left;
+    background-color: cyan;
+    height: 300px;
+    width: 50%;
+    text-align: center;
+	border-style: solid;
+    border-color: black;
+	}
+/*--------------------------------------------------------------------*/
+
+
+
+/*--------------------------------------------------------------------*/
+#main{										 	/* id del div MAIN */
+	float: right;
+    width: 78%;
+    height: 400px;
+    text-align: center;	
+    background-color: rgb(147,147,255);
+    }
+
+.cajasmain{										/* Clase para div de Caja3 y Caja4 dentro de MAIN */
+    float: left;
+    background-color: rgb(204,239,242);
+    height: 300px;
+    width: 48%;
+    margin: 1%;
+	padding: 2%;
+}
+/*-------------------------------------------------------------------------*/
+
+
+
+/*--------------------------------------------------------------------*/
+#maincaja3menu{									/* id del div para MENU dentro de Caja3 */
+    float: left;
+	width: 20%;
+	background-color: rgb(255,155,100);        
+    text-align: center;
+    }
+	
+#maincaja3menu p {								/* Para parrafo del titulo del div maincaja3menu */
+	text-align: center;
+	background-color: rgb(128,255,128);
+	border-style: none;
+	}		
+#maincaja3menu ul a	{text-decoration: none;} 	 /* Quitar subrayado de (etiquetas a)  */
+#maincaja3menu ul a:hover{					     /* Cambiar colores al pasar ratón por encima etiqueta*/
+		background-color: #3646d4;	
+		Color: white;
+		}	
+#maincaja3menu li{								/* para las lineas del menu */
+	display:block;
+	text-align: center;	
+	padding: 0.6em;
+	margin: 1%;
+	width: 100%;
+	height: 100%;
+	border-style: dotted;
+    border-color: black;
+	}		
+/*-------------------------------------------------------------------------*/
+	
+	
+	
+
+/*-------------------------------------------------------------------------*/	
+#maincaja3articulos{  				/* id para Div que continen articulo 1 2 y 3*/
+	float: left;  
+    width: 80%;
+	height: 230px;
+    text-align: center;	
+	margin-left: 
+    }
+
+#maincaja3articulos p {				/* Para parrafo del titulo del div maincaja3articulos */
+	text-align: center;
+	border-style: none;
+	}			
+	
+#maincaja3Art1{						/* id Div que continen a articulo 1 */
+	float: left;
+	width: 40%;
+	height: 200px;
+	padding: 1em;	
+	line-height:30px;
+	margin-left: 4%;
+	text-align: center;
+	background-color: rgb(255,155,100);
+	}
+	
+.textArt{									/* clase div con textos articulo 1,2 y 3 */
+	font-family: 'Gloria Hallelujah', cursive;
+	background-color: rgb(243,232,197);
+}
+/*-------------------------------------------------------------------------*/	
+
+
+
+
+/*-------------------------------------------------------------------------*/	
+#maincaja3Art2y3{						/* id Div que continen a articulo 2 y 3*/
+	float: left;
+	width: 50%;
+	height: 200px;
+	margin-left: 2%;
+	text-align: center;
+	}
+	
+#maincaja3Art2{							/* id Div de articulo 2 */
+	clear:both;
+	height: 93px;
+	padding: 1%;
+	margin: 1%;
+	text-align: center;
+	border-style: solid;
+    border-color: black;	
+	background-color: rgb(255,155,100);
+	}
+	
+#maincaja3Art3{							/* id Div de articulo 3*/
+	height: 93px;
+	padding: 1%;
+	margin: 1%;
+	text-align: center;
+	border-style: solid;
+    border-color: black;
+	background-color: rgb(255,155,100);
+	}
+/*-------------------------------------------------------------------------*/	
+
+
+
+/*-------------------------------------------------------------------------*/	
+#maincaja4 {								/* id Div MENU Caja4*/
+    float: left;
+	width: 100%;
+    }
+	
+#maincaja4 p {								/* para parafo de titulo*/
+	text-align: center;
+	background-color: rgb(128,255,128);
+	}
+
+#maincaja4menu{								/* id Div de para opciones de menu*/
+	height: 30%;
+	margin: 2%;
+	padding: 2%;
+}	
+	
+#maincaja4menu ul a	{text-decoration: none;} 	 /* Quitar subrayado de (etiquetas a)  */
+#maincaja4menu ul a:hover{					     /* Cambiar colores al pasar ratón por encima etiqueta*/
+		background-color: #3646d4;	
+		Color: white;
+		}	
+#maincaja4menu li{								/* para las lineas del menu */
+	display: inline;
+	text-align: center;	
+	padding: 0.62em;
+	margin: 4%;
+	width: 100%;
+	height: 100%;
+	background-color: rgb(255,155,100);
+	border-style: dotted;
+    border-color: black;
+	}
+		
+#maincaja4capitulos{							/* id Div para imagenes*/
+	height: 60%;
+	}
+	
+#maincaja4capitulos article {						
+	float: left;	
+	width: 22%;
+	margin: 1.5%;
+	}
+	
+#maincaja4capitulos figcaption {font-family: 'Gloria Hallelujah', cursive; }		/* fuente para titulos de figure */	
+#maincaja4capitulos figure {														
+	width: 100%;
+	height: 20%;
+	}		
+/*-------------------------------------------------------------------------*/

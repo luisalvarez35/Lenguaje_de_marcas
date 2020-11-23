@@ -1,0 +1,46 @@
+h1 {
+    color: red;
+    font-family: Arial;
+    font-size: large;
+}
+p {
+    color: gray;
+    font-family: Verdana;
+    font-size: medium;
+}
+
+#P1{
+    color: green;
+}
+
+#P2{
+    color: grey;
+}
+
+#P3{
+    color: violet;
+}
+
+.clase1{
+    font-family: "Comic Sans MS"
+}
+
+p.clase1{
+    font-style: italic;
+}
+
+h1.clase1{
+    font-style: italic;
+}
+
+#p1:first-letter{
+    color: green;
+
+}
+h1:first-letter{
+    font-size: 40px;
+}
+
+h1,h2,p{
+    font-weight: bold;
+}

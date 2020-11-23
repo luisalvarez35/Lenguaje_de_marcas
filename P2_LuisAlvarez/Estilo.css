@@ -1,0 +1,18 @@
+table {
+    width: 50%;
+    height: 300px;
+}
+td{
+    width: 20%;
+}
+#Segunda{
+    padding: 1em;
+}
+
+#Primera{
+    padding: 1em;
+}
+table td:nth-child(2) {
+    text-align: center;
+
+}

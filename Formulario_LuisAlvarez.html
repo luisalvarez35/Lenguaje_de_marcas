@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es>"
+<head>
+
+<title>Formulario</title>
+
+</head>
+<body>
+    <h1 style="font-size: 4em;">Formulario de registro</h1>
+
+    <form action="http://jkorpela.fi/cgi-bin/echo.cgi" method="POST">
+       <fieldset>
+           <legend style="font-size: 2em;"><b>Datos Personales</b></legend>
+        <p>DNI:&nbsp; <input type="text" name="DNI" size="9" maxlength="9" pattern="[0-9]{8}[A-Za-z]{1}"> </p>
+        <p> Nombre:&nbsp; <input type="text" name="Nombre" maxlength="15"></p>
+        <p> Apellido:&nbsp; <input type="text" name="Apellido" maxlength="30"></p>
+        <p> Fecha Nacimiento&nbsp;:<input name="FechaNacimiento" type="date"></p>
+        <p> Nacionalidad&nbsp; 
+            <select name="Nacionalidad">
+            <option value="Alemana">Alemana</option>
+            <option value="Española" selected>Española </option>
+            <option value="Francesa">Francesa</option>
+            <option value="Inglesa">Inglesa</option>
+          </select></p>
+          <p>Email:&nbsp; <input type="Email"></p>
+          <p>Password:&nbsp; <input type="Password" maxlength="10"></p>
+          
+          <p >Sexo: <input type="radio" name="Sexo" value="hombre" > Hombre 
+                    <input type="radio" name="Sexo" value="mujer"> Mujer<br>
+                </p>
+
+        <textarea name="Texto" rows="4" cols="40"></textarea>
+    </fieldset>
+       <p> <input type="checkbox" name="Informacion" checked>Confirmar el deseo de recibir más información a través del correo electrónico.</p>       
+
+       <input type="submit" value="Enviar">
+       <input type="reset" value="Restablecer">
+        </form>
+</body>
+</html>
