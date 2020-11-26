@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap Grid</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.css">
+    <link rel="stylesheet" href="css/bootstrap-utilities.css">
+
+
+</head>
+<body>
+
+<div class="container">
+    <h1 class="text-center">Practica de Bootstrap Grid</h1>
+</div>
+
+<div class="container-fluid">
+    <h2>Tipos de Container</h2>
+</div>
+
+<div class="container bg-success">
+    <div class="row">
+        <div class="col">
+            <p>.container</p>
+            <p>Fondo color exito (bg-success)</p>
+        </div>
+    </div>
+
+
+</div>
+
+<div class="container-fluid bg-danger text-white">
+    <div class="row">
+        <div class="col"></div>
+        <p>.container-fluid</p>
+        <p>Fondo color peligro (bg-danger),texto blanco (text-white)</p>
+    </div>
+    </div>
+
+<! -- /////////////////////////////////////////////////////////////////////////////////// -->
+
+
+<div class="container-fluid">
+
+<div class="row"><h2>Sistema Grid</h2></div>
+<div class="row">
+    <div class="col-4 bg-success">
+    <h4>Columna1</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+</div>
+<div class="col-4 bg-warning">
+    <h4>Columna2</h4>
+    <p>Fondo color aviso (bg-warning)</p>
+</div>
+    <div class="col-4 bg-danger">
+        <h4>Columna3</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+</div>
+</div>
+<! -- /////////////////////////////////////////////////////////////////////////////////// -->
+<div class="container-fluid">
+<div class="row"><h2>Tamano y ubicacion columnas</h2></div>
+<div class="row">
+    <div class="col-4 bg-success ">
+        <h4>Columna1</h4>
+        <p>Columna tamano 4</p>
+    </div>
+    <div class="col-4 bg-danger offset-4">
+        <h4>Columna2</h4>
+        <p>Columna tamano 4 y offset 4</p>
+    </div>
+</div>
+</div>
+<! -- /////////////////////////////////////////////////////////////////////////////////// -->
+<div class="container-fluid">
+    <div class="row"><h2>Reordenar columnas:clases order-*</h2></div>
+    <div class="row">
+        <div class="col-4 bg-warning">
+            <h4>Columna1</h4>
+            <p>Columna reordenada cuando pantalla grande col-4 y order-lg-8</p>
+        </div>
+        <div class="col-8 order-lg-first bg-success">
+            <h4>Columna2</h4>
+            <p>Columna reordenada cuando pantalla grande col-8 y order-lg-4</p>
+        </div>
+    </div>
+
+    <div class="row"><h2>Columnas hidden:clases display d-*</h2></div>
+    <div class="row">
+        <div class="col-4 bg-success flex-fill">
+            <h4>Columna1</h4>
+            <p>Siempre visible</p>
+        </div>
+        <div class="col-4 bg-warning d-none d-sm-block flex-fill">
+            <h4>Columna2</h4>
+            <p>Se oculta cuando el tamano es menos de sm (movil) "d-none d-sm-block"</p>
+        </div>
+        <div class="col-4 bg-danger d-none d-md-block">
+            <h4>Columna3</h4>
+            <p>Se ocultara cuando menos de md (tablet) "d-none d-sm-block"</p>
+        </div>
+    </div>
+</div>
+<! -- /////////////////////////////////////////////////////////////////////////////////// -->
+
+
+</body>
+</html>
